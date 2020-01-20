@@ -1,5 +1,5 @@
 import os
-from flask import flask
+from flask import Flask
 
 app = Flask(__name__)
 
@@ -7,4 +7,6 @@ app = Flask(__name__)
 def index():
     return "<h1>Hello There!</h1>"
 
-app.run(os.getenv('IP'), port=(os.getnev('PORT')), debug=True)
+app.run(host=os.environ.get('IP'),
+            port=os.environ.get('PORT'),
+            debug=True)

@@ -1,7 +1,3 @@
-# Code Institute
+# Flask Chat App
 
-Welcome Rami,
-
-We have preinstalled all of the tools you need to get started.
-
-Happy coding!
+This is my chart application written in Flask. The purpose of this project is to take data from a URL and store the information in a list.
